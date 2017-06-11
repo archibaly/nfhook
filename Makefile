@@ -1,4 +1,5 @@
-obj-m = nfhook.o
+obj-m += nfhook.o
+obj-m += proc.o
 
 KVERSION = $(shell uname -r)
 
